@@ -8,11 +8,12 @@ body {
   min-height: 100%;
   background-color: #f3f2f2; }
 
-body, html {
+body,
+html {
   width: 100%;
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   margin: 0;
   padding: 0; }
@@ -27,7 +28,7 @@ body, html {
   position: relative;
   height: 100vh;
   max-width: 100% !important;
-  background-color: #191A1B;
+  background-color: #191a1b;
   display: flex;
   flex-direction: column;
   justify-content: space-around; }
@@ -55,7 +56,7 @@ body, html {
       color: #fbfbfbc4;
       font-size: calc(30px + 45 * ((100vw - 320px) / (1400 - 320)));
       text-transform: uppercase;
-      font-family: 'Russo One', sans-serif; }
+      font-family: "Russo One", sans-serif; }
       @media (orientation: portrait) and (min-height: 800px) {
         .header__section .header__wrapper .header-title__wrapper {
           font-size: calc(60px + 45 * ((100vw - 320px) / (1400 - 320))); } }
@@ -190,12 +191,12 @@ body, html {
     font-size: calc(24px + 30 * ((100vw - 320px) / (1400 - 320)));
     text-transform: uppercase;
     letter-spacing: 0.3rem;
-    font-family: 'Russo One', sans-serif; }
+    font-family: "Russo One", sans-serif; }
   .about__section .main-text__wrapper {
     padding: 0 15vw;
     text-align: center;
     font-size: calc(14px + 8 * ((100vw - 320px) / (1400 - 320)));
-    font-family: 'Noto Sans', sans-serif;
+    font-family: "Noto Sans", sans-serif;
     font-weight: 400;
     color: #000000af; }
 
@@ -205,7 +206,7 @@ body, html {
   min-height: 110vh;
   width: 100%; }
   .portfolio__section .potfolio__title {
-    font-family: 'Russo One', sans-serif;
+    font-family: "Russo One", sans-serif;
     font-size: calc(24px + 30 * ((100vw - 320px) / (1400 - 320)));
     text-transform: uppercase;
     text-align: center;
@@ -302,7 +303,7 @@ body, html {
 
 .foooter__section {
   position: relative;
-  background-color: #191A1B;
+  background-color: #191a1b;
   display: flex;
   flex-direction: row;
   justify-content: center; }
@@ -320,7 +321,7 @@ body, html {
   grid-gap: 10%;
   height: 100vh;
   width: 100%;
-  background-color: #191A1B;
+  background-color: #191a1b;
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr; }
@@ -341,13 +342,13 @@ body, html {
       grid-template-columns: 1fr;
       text-align: center; } }
   .game-0__section .game-0__text {
-    font-family: 'Noto Sans', sans-serif;
+    font-family: "Noto Sans", sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
     color: #fbfbfbc4; }
     .game-0__section .game-0__text .game__text-title {
-      font-family: 'Russo One', sans-serif;
+      font-family: "Russo One", sans-serif;
       text-transform: uppercase;
       font-size: calc(24px + 27 * ((100vw - 320px) / (1400 - 320))); }
     .game-0__section .game-0__text .game__text-par {
@@ -358,7 +359,7 @@ body, html {
       color: #57789b;
       text-transform: uppercase;
       font-weight: 500;
-      font-family: 'Montserrat', sans-serif; }
+      font-family: "Montserrat", sans-serif; }
     .game-0__section .game-0__text .game__text-btn {
       text-decoration: none;
       transition: 0.3s;
